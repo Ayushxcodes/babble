@@ -14,6 +14,16 @@ const AuthImagePattern = ({ title, subtitle }) => {
         </div>
         <h2 className="text-2xl font-bold mb-4">{title}</h2>
         <p className="text-base-content/60">{subtitle}</p>
+        <div className="font-mono pt-8 font-medium">
+          Created by{" "}
+          <a
+            href="https://www.github.com/ayushxcodes"
+            target="_blank"
+            className="font-bold "
+          >
+            Ayush Pandey
+          </a>
+        </div>
       </div>
     </div>
   );
